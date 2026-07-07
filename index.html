@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEET 과학고 자소서 AI 컨설팅</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Pretendard', sans-serif; background-color: #f8fafc; scroll-behavior: smooth; }
+        .gradient-text {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+            background-color: #0f172a;
+            background-image: radial-gradient(circle at top right, #1e293b, #0f172a);
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <header class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">J</div>
+                <span class="text-xl font-bold text-slate-900">JEET 컨설팅</span>
+            </div>
+            <nav class="hidden md:flex gap-6 font-medium text-sm text-slate-600">
+                <a href="#features" class="hover:text-blue-600 transition">서비스 특징</a>
+                <a href="#reviews" class="hover:text-blue-600 transition">합격 후기</a>
+                <a href="#apply" class="hover:text-blue-600 transition">컨설팅 신청</a>
+            </nav>
+            <a href="#apply" class="bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-blue-700 transition shadow-md shadow-blue-200">무료 AI 분석받기</a>
+        </div>
+    </header>
+
+    <section class="hero-bg text-white pt-20 pb-24 px-4 overflow-hidden relative">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between relative z-10">
+            <div class="md:w-3/5 mb-10 md:mb-0 text-center md:text-left">
+                <span class="inline-block py-1 px-3 rounded-full bg-blue-500/20 text-blue-300 text-sm font-semibold mb-4 border border-blue-500/30">
+                    2027학년도 과학고 입시 대비
+                </span>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+                    과학고 합격의 마침표,<br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">초정밀 AI 자소서 컨설팅</span>
+                </h1>
+                <p class="text-slate-300 text-lg mb-8 leading-relaxed">
+                    AI 기반의 1차 서류 분석부터 과학고 출신 전문 컨설턴트의 1:1 화상 첨삭까지.<br class="hidden md:block">
+                    당신의 평범한 생기부를 합격하는 스토리로 탈바꿈합니다.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#apply" class="bg-gradient-to-r from-blue-500 to-blue-600 text-white text-lg font-bold px-8 py-4 rounded-xl hover:shadow-lg hover:shadow-blue-500/30 transition transform hover:-translate-y-1 text-center">
+                        AI 무료 진단 신청하기
+                    </a>
+                    <a href="#features" class="bg-slate-800 text-white border border-slate-700 text-lg font-medium px-8 py-4 rounded-xl hover:bg-slate-700 transition text-center">
+                        서비스 자세히 보기
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-2/5 flex justify-center">
+                <!-- 가상의 대시보드 그래픽 (SVG) -->
+                <div class="bg-slate-800/50 backdrop-blur border border-slate-700 p-6 rounded-2xl shadow-2xl relative w-full max-w-sm">
+                    <div class="flex items-center justify-between mb-6 border-b border-slate-700 pb-4">
+                        <div class="flex items-center gap-2">
+                            <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                        </div>
+                        <div class="text-xs text-slate-400 font-mono">AI_Analysis_Engine_v2.1</div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="h-2 w-1/3 bg-blue-500 rounded animate-pulse"></div>
+                        <div class="h-2 w-3/4 bg-slate-600 rounded"></div>
+                        <div class="h-2 w-5/6 bg-slate-600 rounded"></div>
+                        <div class="h-2 w-2/3 bg-slate-600 rounded"></div>
+                    </div>
+                    <div class="mt-8 p-4 bg-blue-500/10 border border-blue-500/30 rounded-xl">
+                        <div class="text-blue-400 text-xs font-bold mb-1">합격 가능성 예측</div>
+                        <div class="text-3xl font-black text-white">87<span class="text-lg font-medium text-slate-400">%</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 px-4 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">왜 JEET 컨설팅인가요?</h2>
+                <p class="text-slate-500">감에 의존하는 첨삭을 넘어, 데이터와 전문가의 시너지를 제공합니다.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:shadow-lg transition">
+                    <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-inner">🤖</div>
+                    <h3 class="text-xl font-bold mb-3">초정밀 AI 문장 분석</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        과거 영재학교/과학고 합격자 자소서 5,000건의 데이터를 학습한 AI가 학생의 초안을 분석하여 <b>진부한 표현, 표절률, 수학/과학적 역량 어필도</b>를 수치화합니다.
+                    </p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:shadow-lg transition">
+                    <div class="w-14 h-14 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-inner">✍️</div>
+                    <h3 class="text-xl font-bold mb-3">전문가 1:1 심층 첨삭</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        AI 분석 리포트를 바탕으로, 실제 과고/영재고 출신 입시 전문 컨설턴트가 학생만의 <b>고유한 탐구 역량과 스토리</b>를 발굴하여 자소서를 리빌딩합니다.
+                    </p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:shadow-lg transition">
+                    <div class="w-14 h-14 bg-cyan-100 text-cyan-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-inner">💻</div>
+                    <h3 class="text-xl font-bold mb-3">비대면 화상 컨설팅</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        학원에 방문할 필요 없이, 집에서 편안하게 Zoom 화상 솔루션을 통해 <b>면접 대비 모의 질의응답 및 자소서 기반 예상 질문</b>을 훈련합니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="apply" class="py-20 px-4 bg-slate-100 border-t border-slate-200">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row border border-slate-200">
+                
+                <!-- Left side: CTA Text -->
+                <div class="md:w-2/5 bg-blue-600 p-10 text-white flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">지금 바로 시작하세요.</h3>
+                        <p class="text-blue-100 mb-8 leading-relaxed">
+                            작성 중인 자소서 초안이나 생기부 내용을 붙여넣어 주시면, AI가 분석한 <b class="text-white bg-blue-800 px-2 py-1 rounded">1차 분석 리포트</b>를 무료로 보내드립니다.
+                        </p>
+                        <ul class="space-y-4">
+                            <li class="flex items-center gap-3">
+                                <span class="w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center text-xs">✓</span>
+                                <span class="text-sm font-medium">당일 내 AI 분석 결과 발송</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center text-xs">✓</span>
+                                <span class="text-sm font-medium">유선 전화 1회 무료 상담</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center text-xs">✓</span>
+                                <span class="text-sm font-medium">입시 일정 및 전략 안내</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-12 pt-6 border-t border-blue-500">
+                        <p class="text-sm text-blue-200">고객센터</p>
+                        <p class="text-2xl font-bold">1588-0000</p>
+                    </div>
+                </div>
+
+                <!-- Right side: Form Elements -->
+                <div class="md:w-3/5 p-10">
+                    <form id="consultingForm" onsubmit="handleFormSubmit(event)" class="space-y-6">
+                        <!-- Name & Phone -->
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-700 mb-1">학생 이름 *</label>
+                                <input type="text" id="studentName" required placeholder="홍길동" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition bg-slate-50 focus:bg-white">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-700 mb-1">학부모 연락처 *</label>
+                                <input type="tel" id="phoneNumber" required placeholder="010-1234-5678" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition bg-slate-50 focus:bg-white">
+                            </div>
+                        </div>
+
+                        <!-- Target School -->
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-1">목표 과학고 *</label>
+                            <select id="targetSchool" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition bg-slate-50 focus:bg-white appearance-none cursor-pointer">
+                                <option value="" disabled selected>목표 학교를 선택해주세요</option>
+                                <option value="서울과학고">서울과학고등학교</option>
+                                <option value="한성과학고">한성과학고등학교</option>
+                                <option value="세종과학고">세종과학고등학교</option>
+                                <option value="경기북과학고">경기북과학고등학교</option>
+                                <option value="인천과학고">인천과학고등학교</option>
+                                <option value="인천진산과학고">인천진산과학고등학교</option>
+                                <option value="기타">기타 / 아직 미정</option>
+                            </select>
+                        </div>
+
+                        <!-- Current Grade (Math/Sci) -->
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-1">수학/과학 성취도 (최근 학기 기준)</label>
+                            <div class="grid grid-cols-2 gap-4">
+                                <select class="w-full px-4 py-3 rounded-lg border border-slate-300 outline-none bg-slate-50">
+                                    <option value="" disabled selected>수학 성취도</option>
+                                    <option value="A">A</option><option value="B">B</option><option value="C">C 이하</option>
+                                </select>
+                                <select class="w-full px-4 py-3 rounded-lg border border-slate-300 outline-none bg-slate-50">
+                                    <option value="" disabled selected>과학 성취도</option>
+                                    <option value="A">A</option><option value="B">B</option><option value="C">C 이하</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Textarea for Draft -->
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-1">자소서 초안 또는 생기부 주요 활동 (선택)</label>
+                            <textarea id="draftText" rows="4" placeholder="작성 중인 자소서 내용이나, 강점으로 내세우고 싶은 수학/과학 탐구 활동을 간략히 적어주시면 AI가 더 정확하게 분석합니다." class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition bg-slate-50 focus:bg-white resize-none"></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" id="submitBtn" class="w-full bg-slate-900 text-white font-bold text-lg py-4 rounded-lg hover:bg-blue-600 transition-colors shadow-lg flex justify-center items-center gap-2">
+                            <span>무료 AI 분석 신청하기</span>
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-10 px-4 text-sm text-center md:text-left">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <div>
+                <p class="font-bold text-white mb-2 text-lg">JEET 교육평가연구소</p>
+                <p>사업자등록번호: 123-45-67890 | 대표: 홍길동</p>
+                <p>주소: 서울특별시 강남구 테헤란로 123, 4층</p>
+                <p class="mt-4">&copy; 2026 JEET Education. All rights reserved.</p>
+            </div>
+            <div class="flex gap-4">
+                <a href="#" class="hover:text-white transition">이용약관</a>
+                <a href="#" class="hover:text-white transition">개인정보처리방침</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="successModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-[100] hidden flex items-center justify-center opacity-0 transition-opacity duration-300">
+        <div class="bg-white rounded-2xl p-8 max-w-sm w-full mx-4 transform scale-95 transition-transform duration-300" id="modalContent">
+            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg class="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+            </div>
+            <h3 class="text-2xl font-bold text-center mb-2">신청 완료!</h3>
+            <p class="text-slate-600 text-center mb-6 text-sm">
+                입력하신 정보가 성공적으로 접수되었습니다.<br>입시 전문 컨설턴트가 24시간 내에<br>입력하신 연락처로 연락드리겠습니다.
+            </p>
+            <button onclick="closeModal()" class="w-full bg-blue-600 text-white font-bold py-3 rounded-xl hover:bg-blue-700 transition">
+                확인
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function handleFormSubmit(event) {
+            // 폼의 기본 새로고침 방지
+            event.preventDefault();
+
+            // 버튼 상태 변경 (로딩 애니메이션)
+            const btn = document.getElementById('submitBtn');
+            const originalContent = btn.innerHTML;
+            btn.innerHTML = `
+                <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                데이터 전송 중...
+            `;
+            btn.disabled = true;
+
+            // 백엔드가 없으므로, 1.5초 후 성공한 것처럼 시뮬레이션 (MVP 테스트용)
+            setTimeout(() => {
+                // 1. 모달 띄우기
+                const modal = document.getElementById('successModal');
+                const modalContent = document.getElementById('modalContent');
+                
+                modal.classList.remove('hidden');
+                // 약간의 딜레이를 주어 CSS 트랜지션 애니메이션 실행
+                setTimeout(() => {
+                    modal.classList.remove('opacity-0');
+                    modalContent.classList.remove('scale-95');
+                }, 10);
+
+                // 2. 폼 초기화 및 버튼 원상복구
+                document.getElementById('consultingForm').reset();
+                btn.innerHTML = originalContent;
+                btn.disabled = false;
+
+            }, 1500);
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('successModal');
+            const modalContent = document.getElementById('modalContent');
+
+            // 닫기 애니메이션
+            modal.classList.add('opacity-0');
+            modalContent.classList.add('scale-95');
+            
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 300); // CSS 트랜지션 시간과 동일하게 설정
+        }
+    </script>
+</body>
+</html>
